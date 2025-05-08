@@ -1,0 +1,322 @@
+<html dir="rtl" lang="ar">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   خدمات إلكترونية مبتكرة
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body {
+      font-family: 'Cairo', sans-serif;
+    }
+    /* Custom scrollbar for modern feel */
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #f0f9ff;
+    }
+    ::-webkit-scrollbar-thumb {
+      background-color: #3b82f6;
+      border-radius: 10px;
+      border: 2px solid #f0f9ff;
+    }
+  </style>
+ </head>
+ <body class="bg-gradient-to-tr from-blue-50 via-indigo-50 to-purple-50 min-h-screen flex flex-col">
+  <!-- Header -->
+  <header class="bg-white shadow-md sticky top-0 z-50">
+   <div class="container mx-auto px-6 py-4 flex items-center justify-between">
+    <a class="flex items-center space-x-3 space-x-reverse" href="#">
+     <img alt="شعار متجر الخدمات الإلكترونية - رمز إلكتروني أزرق وأبيض" class="rounded-full" height="48" src="https://storage.googleapis.com/a1aa/image/60990de1-02e1-4047-f095-69e1f05377db.jpg" width="48"/>
+     <span class="text-2xl font-extrabold text-indigo-600 select-none">
+      خدمات إلكترونية
+     </span>
+    </a>
+    <nav class="hidden md:flex space-x-8 space-x-reverse text-indigo-700 font-semibold text-lg">
+     <a class="hover:text-indigo-900 transition" href="#services">
+      الخدمات
+     </a>
+     <a class="hover:text-indigo-900 transition" href="#about">
+      من نحن
+     </a>
+     <a class="hover:text-indigo-900 transition" href="#portfolio">
+      نماذجنا
+     </a>
+     <a class="hover:text-indigo-900 transition" href="#contact">
+      تواصل معنا
+     </a>
+    </nav>
+    <button aria-label="فتح القائمة" class="md:hidden text-indigo-600 hover:text-indigo-900 focus:outline-none focus:ring-2 focus:ring-indigo-500" id="menu-btn">
+     <i class="fas fa-bars fa-lg">
+     </i>
+    </button>
+   </div>
+   <!-- Mobile Menu -->
+   <nav aria-label="القائمة الجانبية" class="hidden bg-indigo-50 border-t border-indigo-200 md:hidden" id="mobile-menu">
+    <a class="block px-6 py-3 text-indigo-700 font-semibold border-b border-indigo-200 hover:bg-indigo-100 transition" href="#services">
+     الخدمات
+    </a>
+    <a class="block px-6 py-3 text-indigo-700 font-semibold border-b border-indigo-200 hover:bg-indigo-100 transition" href="#about">
+     من نحن
+    </a>
+    <a class="block px-6 py-3 text-indigo-700 font-semibold border-b border-indigo-200 hover:bg-indigo-100 transition" href="#portfolio">
+     نماذجنا
+    </a>
+    <a class="block px-6 py-3 text-indigo-700 font-semibold hover:bg-indigo-100 transition" href="#contact">
+     تواصل معنا
+    </a>
+   </nav>
+  </header>
+  <!-- Hero Section -->
+  <section class="relative bg-gradient-to-br from-indigo-400 via-purple-500 to-pink-500 text-white flex flex-col-reverse md:flex-row items-center justify-between container mx-auto px-6 py-16 rounded-b-3xl shadow-lg overflow-hidden">
+   <div class="md:w-1/2 space-y-6 text-center md:text-right">
+    <h1 class="text-4xl md:text-5xl font-extrabold leading-tight drop-shadow-lg">
+     خدمات إلكترونية مبتكرة
+     <br/>
+     <span class="text-yellow-300">
+      تصميم بطاقات، أبحاث، ثيمات، عروض تقديمية وأكثر
+     </span>
+    </h1>
+    <p class="text-lg md:text-xl font-light drop-shadow-md">
+     نقدم لك حلولاً رقمية متكاملة بأسلوب عصري وألوان زاهية تناسب ذوقك العربي الأصيل.
+    </p>
+    <a class="inline-block bg-yellow-400 hover:bg-yellow-300 text-indigo-900 font-bold py-3 px-8 rounded-full shadow-lg transition" href="#services">
+     اكتشف خدماتنا
+    </a>
+   </div>
+   <div class="md:w-1/2 relative">
+    <img alt="رسم توضيحي ملون ليد تحمل بطاقة إلكترونية مع رموز تصميم وأبحاث وثيمات وعروض تقديمية" class="mx-auto md:mx-0 rounded-3xl shadow-2xl" height="360" src="https://storage.googleapis.com/a1aa/image/40ec97bd-682e-43e8-4427-d3856f1dddd5.jpg" width="480"/>
+   </div>
+  </section>
+  <!-- Services Section -->
+  <section class="container mx-auto px-6 py-16" id="services">
+   <h2 class="text-3xl font-extrabold text-indigo-700 text-center mb-12">
+    خدماتنا الإلكترونية
+   </h2>
+   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+    <article class="bg-white rounded-3xl shadow-lg p-8 flex flex-col items-center text-center hover:shadow-indigo-400 transition">
+     <img alt="رمز لوحة ألوان وأدوات تصميم" class="mb-6" height="96" src="https://storage.googleapis.com/a1aa/image/b090b20f-20be-4af7-6fb9-3a4407b687c2.jpg" width="96"/>
+     <h3 class="text-xl font-bold text-indigo-600 mb-2">
+      تصميم بطاقات
+     </h3>
+     <p class="text-gray-600 font-light">
+      تصميم بطاقات شخصية، بطاقات أعمال، وبطاقات دعوة بألوان زاهية وأسلوب عربي معاصر.
+     </p>
+    </article>
+    <article class="bg-white rounded-3xl shadow-lg p-8 flex flex-col items-center text-center hover:shadow-indigo-400 transition">
+     <img alt="رمز عدسة مكبرة تمثل البحث" class="mb-6" height="96" src="https://storage.googleapis.com/a1aa/image/c7ea73e8-b037-4fb9-41c7-acc358fb68d5.jpg" width="96"/>
+     <h3 class="text-xl font-bold text-indigo-600 mb-2">
+      أبحاث متخصصة
+     </h3>
+     <p class="text-gray-600 font-light">
+      إعداد أبحاث وتقارير متعمقة في مجالات متعددة مع تصميم عربي أنيق وسهل القراءة.
+     </p>
+    </article>
+    <article class="bg-white rounded-3xl shadow-lg p-8 flex flex-col items-center text-center hover:shadow-indigo-400 transition">
+     <img alt="رمز شاشة كمبيوتر مع ثيمات" class="mb-6" height="96" src="https://storage.googleapis.com/a1aa/image/880062ef-7bf6-4749-a02c-5e2d2f74bb34.jpg" width="96"/>
+     <h3 class="text-xl font-bold text-indigo-600 mb-2">
+      ثيمات مخصصة
+     </h3>
+     <p class="text-gray-600 font-light">
+      تصميم ثيمات لمواقع وتطبيقات بألوان زاهية وتصاميم مستوحاة من التراث العربي.
+     </p>
+    </article>
+    <article class="bg-white rounded-3xl shadow-lg p-8 flex flex-col items-center text-center hover:shadow-indigo-400 transition">
+     <img alt="رمز عرض تقديمي مع مخططات" class="mb-6" height="96" src="https://storage.googleapis.com/a1aa/image/559d1f65-b992-45a7-3d97-752c5ed7328d.jpg" width="96"/>
+     <h3 class="text-xl font-bold text-indigo-600 mb-2">
+      عروض تقديمية
+     </h3>
+     <p class="text-gray-600 font-light">
+      إعداد عروض تقديمية جذابة واحترافية مع لمسة عربية وألوان مبهجة.
+     </p>
+    </article>
+   </div>
+  </section>
+  <!-- About Section -->
+  <section class="bg-gradient-to-r from-purple-100 via-indigo-100 to-blue-100 py-16" id="about">
+   <div class="container mx-auto px-6 flex flex-col md:flex-row items-center gap-12">
+    <img alt="صورة فريق عمل عربي مبتسم يعمل على أجهزة كمبيوتر محمولة في مكتب عصري ملون" class="rounded-3xl shadow-lg w-full md:w-1/2" height="320" src="https://storage.googleapis.com/a1aa/image/9cff1bcb-9cd8-4184-84bb-b4a1283136cb.jpg" width="400"/>
+    <div class="md:w-1/2 space-y-6 text-right">
+     <h2 class="text-3xl font-extrabold text-indigo-700">
+      من نحن
+     </h2>
+     <p class="text-indigo-900 font-light text-lg leading-relaxed">
+      نحن فريق متخصص في تقديم خدمات إلكترونية مبتكرة تجمع بين الحداثة والذوق العربي الأصيل. نؤمن بأن التصميم الجيد هو مفتاح نجاح أي مشروع رقمي، لذلك نعمل على دمج الألوان الزاهية والتقنيات الحديثة لتقديم تجربة فريدة لعملائنا.
+     </p>
+     <p class="text-indigo-900 font-light text-lg leading-relaxed">
+      هدفنا هو تمكينك من الحصول على خدمات رقمية متكاملة تساعدك على التميز في مجالك بأسلوب بسيط وسلس.
+     </p>
+    </div>
+   </div>
+  </section>
+  <!-- Portfolio Section -->
+  <section class="container mx-auto px-6 py-16" id="portfolio">
+   <h2 class="text-3xl font-extrabold text-indigo-700 text-center mb-12">
+    نماذج أعمالنا
+   </h2>
+   <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+    <div class="rounded-3xl overflow-hidden shadow-lg hover:shadow-indigo-400 transition cursor-pointer group">
+     <img alt="تصميم بطاقة عمل إلكترونية بألوان بنفسجية وزرقاء مع خطوط عربية أنيقة" class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300" height="280" src="https://storage.googleapis.com/a1aa/image/95d0927a-2ba4-412c-464f-9755aedaf9e6.jpg" width="400"/>
+     <div class="p-6 bg-white text-right">
+      <h3 class="text-xl font-bold text-indigo-700 mb-2">
+       بطاقة عمل عصرية
+      </h3>
+      <p class="text-gray-600 font-light">
+       تصميم بطاقة عمل تجمع بين الألوان الزاهية والخطوط العربية الحديثة.
+      </p>
+     </div>
+    </div>
+    <div class="rounded-3xl overflow-hidden shadow-lg hover:shadow-indigo-400 transition cursor-pointer group">
+     <img alt="شريحة عرض تقديمي ملونة مع مخططات ورسوم بيانية وأيقونات عربية" class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300" height="280" src="https://storage.googleapis.com/a1aa/image/ad7efd38-1692-4760-0d66-82e4ca67defa.jpg" width="400"/>
+     <div class="p-6 bg-white text-right">
+      <h3 class="text-xl font-bold text-indigo-700 mb-2">
+       عرض تقديمي احترافي
+      </h3>
+      <p class="text-gray-600 font-light">
+       إعداد عروض تقديمية جذابة مع لمسة عربية وألوان مبهجة.
+      </p>
+     </div>
+    </div>
+    <div class="rounded-3xl overflow-hidden shadow-lg hover:shadow-indigo-400 transition cursor-pointer group">
+     <img alt="تصميم ثيم موقع إلكتروني بألوان زرقاء وبنفسجية مع خطوط عربية وزخارف" class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300" height="280" src="https://storage.googleapis.com/a1aa/image/246baa8a-8478-48af-a153-ad86f23885d3.jpg" width="400"/>
+     <div class="p-6 bg-white text-right">
+      <h3 class="text-xl font-bold text-indigo-700 mb-2">
+       ثيم موقع مبتكر
+      </h3>
+      <p class="text-gray-600 font-light">
+       تصميم ثيمات مواقع إلكترونية مستوحاة من التراث العربي بألوان زاهية.
+      </p>
+     </div>
+    </div>
+    <div class="rounded-3xl overflow-hidden shadow-lg hover:shadow-indigo-400 transition cursor-pointer group">
+     <img alt="صفحة بحث إلكتروني عربي مع مخططات وأيقونات وألوان زاهية" class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300" height="280" src="https://storage.googleapis.com/a1aa/image/e7cc93bf-0bdf-468f-a68e-88b96bbbf338.jpg" width="400"/>
+     <div class="p-6 bg-white text-right">
+      <h3 class="text-xl font-bold text-indigo-700 mb-2">
+       بحث متخصص
+      </h3>
+      <p class="text-gray-600 font-light">
+       إعداد أبحاث وتقارير متعمقة مع تصميم عربي أنيق وسهل القراءة.
+      </p>
+     </div>
+    </div>
+    <div class="rounded-3xl overflow-hidden shadow-lg hover:shadow-indigo-400 transition cursor-pointer group">
+     <img alt="تصميم بطاقة دعوة إلكترونية بألوان زاهية وزخارف عربية" class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300" height="280" src="https://storage.googleapis.com/a1aa/image/29880544-b4b5-4856-33b0-52cbaee109f4.jpg" width="400"/>
+     <div class="p-6 bg-white text-right">
+      <h3 class="text-xl font-bold text-indigo-700 mb-2">
+       بطاقة دعوة
+      </h3>
+      <p class="text-gray-600 font-light">
+       تصميم بطاقات دعوة مميزة بألوان زاهية وزخارف عربية.
+      </p>
+     </div>
+    </div>
+    <div class="rounded-3xl overflow-hidden shadow-lg hover:shadow-indigo-400 transition cursor-pointer group">
+     <img alt="تصميم ثيم تطبيق هاتف ذكي بألوان بنفسجية وزرقاء مع خطوط عربية" class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300" height="280" src="https://storage.googleapis.com/a1aa/image/1fbfa50c-7eb6-4c64-5ad3-7f42e2993083.jpg" width="400"/>
+     <div class="p-6 bg-white text-right">
+      <h3 class="text-xl font-bold text-indigo-700 mb-2">
+       ثيم تطبيق هاتف
+      </h3>
+      <p class="text-gray-600 font-light">
+       تصميم ثيمات تطبيقات الهواتف الذكية بألوان زاهية وأسلوب عربي حديث.
+      </p>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Contact Section -->
+  <section class="bg-gradient-to-tr from-yellow-100 via-yellow-200 to-yellow-100 py-16" id="contact">
+   <div class="container mx-auto px-6 max-w-4xl rounded-3xl bg-white shadow-lg p-10">
+    <h2 class="text-3xl font-extrabold text-indigo-700 text-center mb-10">
+     تواصل معنا
+    </h2>
+    <form action="#" autocomplete="off" class="space-y-8 text-right" dir="rtl" method="POST">
+     <div>
+      <label class="block mb-2 font-semibold text-indigo-700" for="name">
+       الاسم الكامل
+      </label>
+      <input class="w-full rounded-xl border border-indigo-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:border-yellow-400 transition" id="name" name="name" placeholder="أدخل اسمك الكامل" required="" type="text"/>
+     </div>
+     <div>
+      <label class="block mb-2 font-semibold text-indigo-700" for="email">
+       البريد الإلكتروني
+      </label>
+      <input class="w-full rounded-xl border border-indigo-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:border-yellow-400 transition" id="email" name="email" placeholder="example@email.com" required="" type="email"/>
+     </div>
+     <div>
+      <label class="block mb-2 font-semibold text-indigo-700" for="service">
+       نوع الخدمة
+      </label>
+      <select class="w-full rounded-xl border border-indigo-300 px-4 py-3 bg-white focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:border-yellow-400 transition" id="service" name="service" required="">
+       <option disabled="" selected="" value="">
+        اختر الخدمة المطلوبة
+       </option>
+       <option value="card-design">
+        تصميم بطاقات
+       </option>
+       <option value="research">
+        أبحاث متخصصة
+       </option>
+       <option value="themes">
+        ثيمات مخصصة
+       </option>
+       <option value="presentations">
+        عروض تقديمية
+       </option>
+      </select>
+     </div>
+     <div>
+      <label class="block mb-2 font-semibold text-indigo-700" for="message">
+       رسالتك
+      </label>
+      <textarea class="w-full rounded-xl border border-indigo-300 px-4 py-3 resize-none focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:border-yellow-400 transition" id="message" name="message" placeholder="اكتب تفاصيل طلبك هنا..." rows="5"></textarea>
+     </div>
+     <div class="text-center">
+      <button class="bg-yellow-400 hover:bg-yellow-300 text-indigo-900 font-bold py-3 px-12 rounded-full shadow-lg transition" type="submit">
+       إرسال الطلب
+      </button>
+     </div>
+    </form>
+   </div>
+  </section>
+  <!-- Footer -->
+  <footer class="bg-indigo-700 text-yellow-100 py-8 mt-auto">
+   <div class="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0">
+    <p class="text-center md:text-right text-sm select-none">
+     © 2024 خدمات إلكترونية مبتكرة. جميع الحقوق محفوظة.
+    </p>
+    <div class="flex space-x-6 space-x-reverse text-yellow-300 text-xl">
+     <a aria-label="فيسبوك" class="hover:text-yellow-400 transition" href="#">
+      <i class="fab fa-facebook-f">
+      </i>
+     </a>
+     <a aria-label="تويتر" class="hover:text-yellow-400 transition" href="#">
+      <i class="fab fa-twitter">
+      </i>
+     </a>
+     <a aria-label="إنستغرام" class="hover:text-yellow-400 transition" href="#">
+      <i class="fab fa-instagram">
+      </i>
+     </a>
+     <a aria-label="لينكدإن" class="hover:text-yellow-400 transition" href="#">
+      <i class="fab fa-linkedin-in">
+      </i>
+     </a>
+    </div>
+   </div>
+  </footer>
+  <script>
+   const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+ </body>
+</html>
